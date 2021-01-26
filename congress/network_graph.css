@@ -1,0 +1,56 @@
+
+path.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 0.5px;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #fff;
+  stroke: black;
+  stroke-width: 1px;
+}
+
+text {
+  fill: #000;
+  font: 10px sans-serif;
+  pointer-events: none;
+}
+
+#dropdown_group{ 
+  position:relative;
+  right:210px;
+}
+
+#legend_text{ 
+  position:relative;
+  right:395px;
+  top: 35px;
+  width: 800px;
+}
+
+#tool_title{ 
+  color: white;
+  padding-top: 0px;
+  position: relative;
+  bottom: 25px;
+
+ }
+
+#tool_header{ 
+  height: 60px;
+  background-color: #092147;
+}
+
+.d3-tip {
+  position: absolute;
+  background-color: white;
+  height: auto;
+  padding: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  border-width: 1px;
+  pointer-events: none;
+}
+
